@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero section */
+.hero {
+  background: url('images/hero.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero .badges img {
+  height: 50px;
+  margin: 10px;
+}
+
+/* Buttons */
+button {
+  margin: 10px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+button:last-of-type {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+/* Sections */
+.services, .certifications, .eco, .reviews {
+  padding: 40px;
+  text-align: center;
+}
+
+.service-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  width: 220px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+footer a {
+  color: #28a745;
+  margin: 0 10px;
+}
